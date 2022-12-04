@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.convertForm {
+  max-width: 100%;
+  height: 100px;
+  padding: 30px 15px 10px 15px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  text-align: center;
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    select {
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+    }
+
+    select:active,
+    select:focus {
+      outline: none;
+    }
+  }
+
+  input {
+    max-width: 200px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+  }
+
+  :active,
+  :hover,
+  :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #979797;
+  box-sizing: border-box;
+  padding-top: 50px;
+
+  .window {
+    max-width: 1000px;
+    height: 650px;
+    background-color: #cacaca;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+  }
+}
+
+@media (max-width: 830px) {
+  .wrapper {
+    padding-top: 0;
+  }
+}
