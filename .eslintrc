@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "react-app",
+        "react-app/jest"
+    ],
+    "rules": {
+        "no-console": "error",
+        "prefer-const": "error",
+        "quotes": ["error", "double"],
+        "comma-dangle": ["error", "always-multiline"],
+        "semi": ["error", "always"],
+        "react-hooks/exhaustive-deps": "error"
+    }
+}
